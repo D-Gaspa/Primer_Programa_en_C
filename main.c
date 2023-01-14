@@ -16,7 +16,7 @@ int main() {
     // Basic input validation to make sure the length is greater than 0
     if (length <= 0) {
         printf("The entered value is invalid, try again!");
-        return 0;
+        return -1;
     }//end if
 
     // Get the width of the rectangle
@@ -26,7 +26,7 @@ int main() {
     // Basic input validation to make sure the width is greater than 0
     if (width <= 0) {
         printf("The entered value is invalid, try again!");
-        return 0;
+        return -1;
     }//end if
 
     // Get the area of the rectangle
